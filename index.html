@@ -1,1 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jacob Arvidson</title>
 
+  <style>
+    body {
+      margin: 0;
+      font-family: "Times New Roman", Times, serif;
+      background: #ffffff;
+      color: #000;
+    }
+
+    /* Center everything in top section */
+    .header {
+      text-align: center;
+      padding: 80px 20px 40px;
+    }
+
+    .title {
+      font-size: 12px;
+      margin-bottom: 10px;
+    }
+
+    .email {
+      font-size: 12px;
+      margin-bottom: 10px;
+    }
+
+    .link {
+      font-size: 12px;
+      margin-bottom: 40px;
+    }
+
+    .link a {
+      color: #000;
+      text-decoration: underline;
+    }
+
+    /* Gallery section */
+    .gallery {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
+      padding-bottom: 80px;
+    }
+
+    .photo-block {
+      text-align: center;
+      max-width: 600px;
+    }
+
+    .photo-block img {
+      width: 100%;
+      max-width: 500px;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .caption {
+      margin-top: 10px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Top centered content -->
+  <div class="header">
+    <div class="title">Jacob Arvidson</div>
+
+    <div class="email">
+      <a href="mailto:youremail@example.com">jarvidson23@gmail.com</a>
+    </div>
+
+    <div class="link">
+      <a href="info.html">Information</a>
+    </div>
+  </div>
+
+  <!-- Centered image gallery -->
+  <div class="gallery">
+
+    <div class="photo-block">
+      <img src="https://via.placeholder.com/800x500" alt="Image 1">
+      <div class="caption">Caption for image one</div>
+    </div>
+
+    <div class="photo-block">
+      <img src="https://via.placeholder.com/800x500" alt="Image 2">
+      <div class="caption">Caption for image two</div>
+    </div>
+
+    <div class="photo-block">
+      <img src="https://via.placeholder.com/800x500" alt="Image 3">
+      <div class="caption">Caption for image three</div>
+    </div>
+
+  </div>
+
+</body>
+</html>
