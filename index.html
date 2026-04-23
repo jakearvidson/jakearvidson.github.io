@@ -13,7 +13,6 @@
       color: #000;
     }
 
-    /* Center everything in top section */
     .header {
       text-align: center;
       padding: 20px 20px 40px;
@@ -22,6 +21,15 @@
     .title {
       font-size: 14px;
       margin-bottom: 20px;
+    }
+
+    .title a {
+      color: #000;
+      text-decoration: none;
+    }
+
+    .title a:hover {
+      text-decoration: underline;
     }
 
     .link {
@@ -34,7 +42,6 @@
       text-decoration: underline;
     }
 
-    /* Gallery section */
     .gallery {
       display: flex;
       flex-direction: column;
@@ -54,45 +61,49 @@
       height: auto;
       display: block;
       margin: 0 auto;
-    }
-
-    .caption {
-      margin-top: 10px;
-      font-size: 12px;
+      cursor: pointer;
     }
   </style>
 </head>
 
 <body>
 
-  <!-- Top centered content -->
   <div class="header">
-    <div class="title">Jacob Arvidson <br>jarvidson23@gmail.com</br></div>
-
-  
+    <div class="title">
+      <a href="index.html">
+        Jacob Arvidson <br>jarvidson23@gmail.com
+      </a>
+    </div>
 
     <div class="link">
       <a href="info.html">Information</a>
     </div>
   </div>
 
-  <!-- Centered image gallery -->
   <div class="gallery">
 
     <div class="photo-block">
-      <img src="../images:/FWWeb1.jpg" alt="Image 1">
+      <a href="project1.html">
+        <img src="../images:/FWWeb1.jpg" alt="Image 1">
+      </a>
     </div>
 
     <div class="photo-block">
-      <img src="../images:/MLWeb3.jpg" alt="Image 2">
+      <a href="project2.html">
+        <img src="../images:/MLWeb3.jpg" alt="Image 2">
+      </a>
     </div>
 
     <div class="photo-block">
-      <img src="../images:/PTWeb1.jpg" alt="Image 3">
+      <a href="project3.html">
+        <img src="../images:/PTWeb1.jpg" alt="Image 3">
+      </a>
     </div>
 
     <div class="photo-block">
-      <img src="../images:/PersonalWeb1.jpg" alt="Image 4">
+      <a href="project4.html">
+        <img src="../images:/PersonalWeb1.jpg" alt="Image 4">
+      </a>
     </div>
 
   </div>
